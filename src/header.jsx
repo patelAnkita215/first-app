@@ -1,18 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./header.css";
+import "./assets/header.css";
 
 const HeaderComp = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container">
             <div className="d-flex align-items-center justify-content-between w-100">
               <Link to="/" className="navbar-brand">
                 Logo
               </Link>
               <button
-                class="navbar-toggler"
+                className="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarNavAltMarkup"
@@ -20,11 +20,11 @@ const HeaderComp = () => {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span class="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"></span>
               </button>
             </div>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
+            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div className="navbar-nav">
                 <Link to="/" className="nav-link">
                   Home
                 </Link>
@@ -33,6 +33,9 @@ const HeaderComp = () => {
                 </Link>
                 <Link to="/contact" className="nav-link">
                   Contact Us
+                </Link>
+                <Link to="/component" className="nav-link">
+                  Component
                 </Link>
               </div>
             </div>
