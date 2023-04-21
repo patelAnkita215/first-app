@@ -17,5 +17,5 @@
 }
 
 @media screen and (min-width: 992px) {
-    .navbar-collapse {width: 100%;justify-content: flex-end;}
+    .navbar-collapse {width: 70%;justify-content: flex-end;}
 }
