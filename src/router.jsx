@@ -9,6 +9,7 @@ import PropsCompo from "./example-component/class-component/props-example/props-
 import StateLifecycleExample from "./example-component/class-component/state-lifecycle/state-lifecycleexample";
 import UseCallbackExample from "./useCallback-example/UseCallbackExample";
 import UsememoExample from "./useMemo-example/UsememoExample";
+import UsecontentExample from "./example-component/UseContextExample/MainContent";
 
 const ExampleCompoRoute = React.lazy(()=>{ return import('./example-component/component-name-route') })
 const MainRouter = createBrowserRouter([
@@ -72,6 +73,15 @@ const MainRouter = createBrowserRouter([
       <>
         <HeaderComp />
         <UsememoExample />
+      </>
+    ),
+  },
+  {
+    path: "/usecontextexample",
+    element: (
+      <>
+        <HeaderComp />
+        <UsecontentExample />
       </>
     ),
   },

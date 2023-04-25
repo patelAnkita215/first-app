@@ -30,8 +30,8 @@ class HeaderComponent extends Component {
                 <Link to="/" className="nav-link">
                   Home
                 </Link>
-                <Link to="/about" className="nav-link">
-                  About Us
+                <Link to="/usecontextexample" className="nav-link">
+                  UseContext
                 </Link>
                 <Link to="/usememoexample" className="nav-link">
                   useMemo
